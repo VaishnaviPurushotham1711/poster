@@ -1,0 +1,283 @@
+/* General styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #111111;
+ /* background-image: url(iclogo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;*/
+  color: rgb(10, 10, 10);
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #082b50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+header .logo {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+}
+
+header .logo img {
+  height: 80px;
+  width: auto;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  padding: 30px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+section h2 {
+  color: #082b50;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 1.1em;
+  line-height: 1.8;
+}
+
+/* General styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section styles */
+#vertical-images {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#vertical-images h2 {
+  color: #0056b3;
+  margin-bottom: 20px;
+}
+
+/* General styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section styling */
+#active {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#active h2 {
+  color: #0056b3;
+  margin-bottom: 20px;
+}
+
+/* Flexbox container to display images horizontally */
+.activeimages {
+  display: flex;
+  justify-content: center; /* Centers images horizontally */
+  gap: 20px; /* Adds space between the images */
+}
+
+/* Styling for the images */
+.activeimages img {
+  width: 300px; /* Set your desired width */
+  height: auto; /* Height adjusts based on width */
+  border-radius: 2px; /* Optional: Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow */
+}
+
+/* Section styling */
+#passive {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#passive h2 {
+  color: #0056b3;
+  margin-bottom: 20px;
+}
+
+/* Flexbox container to display images horizontally */
+.passiveimages {
+  display: flex;
+  justify-content: center; /* Centers images horizontally */
+  gap: 20px; /* Adds space between the images */
+}
+
+/* Styling for the images */
+.passiveimages img {
+  width: 200px; /* Set your desired width */
+  height: auto; /* Height adjusts based on width */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow */
+}
+
+.custom-size {
+  width: 300px;
+  height: 300px; /* Optional: Omit this if you want proportional scaling */
+}
+section img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+ul {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color: #101214;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #0056b3;
+  color: white;
+  padding: 0 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #ffdd57;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+/* Flexbox container to display images horizontally */
+.capacitorimages {
+  display: flex;
+  justify-content: center; /* Centers images horizontally */
+  gap: 20px; /* Adds space between the images */
+}
+
+/* Styling for the images */
+.capacitorimages img {
+  width: 300px; /* Set your desired width */
+  height: auto; /* Height adjusts based on width */
+  border-radius: 2px; /* Optional: Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow */
+}
+
+/* Flexbox container to display images horizontally */
+.diodesimages {
+  display: flex;
+  justify-content: center; /* Centers images horizontally */
+  gap: 20px; /* Adds space between the images */
+}
+
+/* Styling for the images */
+.diodesimages img {
+  width: 300px; /* Set your desired width */
+  height: auto; /* Height adjusts based on width */
+  border-radius: 2px; /* Optional: Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow */
+}
+
+/* Flexbox container to display images horizontally */
+.transistorimages {
+  display: flex;
+  justify-content: center; /* Centers images horizontally */
+  gap: 20px; /* Adds space between the images */
+}
+
+/* Styling for the images */
+.transistorimages img {
+  width: 300px; /* Set your desired width */
+  height: auto; /* Height adjusts based on width */
+  border-radius: 2px; /* Optional: Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow */
+}
+
+/* Flexbox container to display images horizontally */
+.resistorimages {
+  display: flex;
+  justify-content: center; /* Centers images horizontally */
+  gap: 20px; /* Adds space between the images */
+}
+
+/* Styling for the images */
+.resistorimages img {
+  width: 300px; /* Set your desired width */
+  height: auto; /* Height adjusts based on width */
+  border-radius: 2px; /* Optional: Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow */
+}
+
+/* Flexbox container to display images horizontally */
+.opampimages {
+  display: flex;
+  justify-content: center; /* Centers images horizontally */
+  gap: 20px; /* Adds space between the images */
+}
+
+/* Styling for the images */
+.opampimages img {
+  width: 300px; /* Set your desired width */
+  height: auto; /* Height adjusts based on width */
+  border-radius: 2px; /* Optional: Rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow */
+}
